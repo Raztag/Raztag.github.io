@@ -1,0 +1,155 @@
+*{                                    /*Reset no CSS*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  body{
+      background-image: url(./images/banco-de-dados-black.png);
+      background-color: rgb(0, 0, 0);
+      font-family: 'Oswald', sans-serif;
+      margin: 0 auto;
+      padding: 20px;
+      color: rgb(255, 255, 255);
+  }
+  
+  header{                              /*Estilização cabeçalho*/
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: end;
+  }
+  
+  #pagina-inicial{
+      flex-direction: column;
+      line-height: 20px;
+      font-size: larger;
+      font-style: oblique;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+  }
+  
+  #naruto{
+      position: absolute;
+      top: 0;
+      right: 200px;   
+  }
+  
+  .dark-mode-button{
+      font-style: italic;
+      font-weight: 900;
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      font-size: 14px;
+      border-radius: 40px;
+      padding: 10px;
+      cursor: pointer;
+  }
+  
+  .dark-mode-button:hover{
+      color: rgb(15, 11, 243);
+      transition: 0.8s all;
+  }
+  
+  li{
+      display: inline-block;
+      margin: 40px;
+      justify-content: space-between;
+  }
+  
+  a{
+      color: #4586d1;
+      font-weight: 700;
+      font-size: larger;
+  }
+  
+  a:hover{
+      color: rgb(255, 255, 255);
+      transition: 0.9s all;
+  }
+            
+  
+  h1{
+      font-weight: 1000;
+      font-weight: bold;
+      
+  }
+  /*------------------------------------------------------------------------------------*/
+  
+  aside p{
+      color: rgb(252, 253, 253);
+      line-height: 60px;
+      font-weight: 90;
+      font-size: 30px;
+      font-family: 'Inconsolata', monospace;
+      text-align: center;
+      margin-top: 70px;
+      -webkit-text-stroke: 1px #4586d1;
+  }
+  
+  main{
+      display: flex;
+      flex-direction: row;
+      padding: 3%;
+      padding-bottom: 200px;
+  }
+  
+  h2{
+      
+      font-family: 'Karla', sans-serif;
+      font-size: 40px;
+      -webkit-text-stroke: 2px #4586d1;
+  }
+  
+  span{
+      color: rgb(0, 0, 0);
+  }
+  
+  
+  p{
+      line-height: 20px;
+      max-width: 500px;
+  }
+  
+  
+  /*Estilização rodapé*/
+  
+  footer{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      line-height: 30px;
+      font-family: 'Oswald', sans-serif;
+      padding: 10px;
+  
+  }
+  
+  img{
+      width: 40px;
+      padding: 10px;
+  }
+  
+  footer img{
+      
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      margin-top: -60px
+  }
+  
+  #fb-black{
+      width: 46.5px;
+      height: 46.5px;
+      text-align: center;
+      align-items: center;
+      padding: 17.1px;
+     
+  }
